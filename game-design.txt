@@ -1,0 +1,189 @@
+# Spike Masters: Retro Beach Volleyball
+## Game Design Document
+
+![Game Logo Placeholder]
+
+### Game Overview
+**Spike Masters** is a retro-style beach volleyball game with pixel art aesthetics that combines simple, accessible controls with deep, strategic gameplay. Players compete against increasingly challenging AI opponents in a career mode that spans iconic beach locations around the world.
+
+### Core Gameplay
+
+#### Controls & Team Management
+- **Player Switching:** Automatic switching between team members with manual override (button press)
+- **Context-Sensitive Actions:** Different button functions based on ball position and player stance
+- **Position Strategy:** AI teammate follows positioning logic when not controlled
+
+#### Volleyball Mechanics
+
+**Serving:**
+- Basic Serve: Standard serve with medium power and accuracy
+- Float Serve: Less power but unpredictable trajectory
+- Jump Serve: High power but more difficult to control
+- Power Serve: Unlockable special serve with high risk/reward
+
+**Offense:**
+- Bump: Basic pass to teammate
+- Set: Position the ball for a spike attack
+- Short Set: Quick set for faster plays
+- Back Set: Set behind player for misdirection
+- Spike: Powerful attack over the net
+- Cut Shot: Angled spike to hit court corners
+- Fake: Feint to trick defenders
+
+**Defense:**
+- Block: Attempt to stop spikes at the net
+- Dig: Low defensive save
+- Dive: Extended defensive move to save difficult balls
+- Receive: Controlled pass after opponent's serve
+
+### Career Mode
+
+#### Structure
+1. **Beach Rookie Circuit:** Entry-level tournaments in local beaches
+2. **National Tour:** Mid-tier tournaments across your home country
+3. **World Tour:** High-level international competition
+4. **Masters Series:** Elite competition featuring the best AI teams
+5. **World Championship:** Ultimate tournament to crown the beach volleyball champion
+
+#### Tournament Progression
+- Each tier features 3-5 tournaments
+- Tournament formats vary (single elimination, double elimination, round robin)
+- Increasing prize money and reputation as you advance
+- Unlockable special events and exhibition matches
+
+#### Locations (16 Total)
+1. **Rookie Circuit:**
+   - Sunset Beach, California
+   - Miami South Beach, Florida
+   - Waikiki Beach, Hawaii
+   - Sydney's Manly Beach, Australia
+
+2. **National Tour:**
+   - Hermosa Beach, California
+   - Clearwater Beach, Florida
+   - Santa Monica Pier, California
+   - Outer Banks, North Carolina
+
+3. **World Tour:**
+   - Copacabana Beach, Brazil
+   - Bondi Beach, Australia
+   - Boracay Beach, Philippines
+   - Ibiza Beach, Spain
+
+4. **Masters Series:**
+   - Gold Coast, Australia
+   - Cancun Beach, Mexico
+   - Kuta Beach, Bali
+   - Final Championship at Ipanema Beach, Brazil
+
+### Character System
+
+#### Character Attributes
+- **Power:** Affects spike and serve strength
+- **Speed:** Affects movement and recovery time
+- **Jumping:** Affects spike height and blocking ability
+- **Technique:** Affects ball control and shot placement
+- **Stamina:** Affects energy conservation and recovery between points
+
+#### Character Types
+- **All-Rounder:** Balanced stats across all attributes
+- **Power Hitter:** High power and jumping, lower speed
+- **Defensive Specialist:** High speed and technique, lower power
+- **Technique Master:** High technique and moderate stats elsewhere
+- **Endurance Player:** High stamina and speed, moderate power
+
+#### Character Customization
+- Unlockable characters with preset attribute distributions
+- Character appearance customization (hair, skin tone, outfits)
+- Unlockable special equipment providing minor stat boosts
+- Special techniques unlocked through tournament progression
+
+### AI Progression System
+
+#### AI Behavior Tiers
+1. **Rookie AI:** Basic positioning, predictable attacks, slow reactions
+2. **Amateur AI:** Improved positioning, occasional strategic plays
+3. **Professional AI:** Strategic positioning, varied attack patterns
+4. **Elite AI:** Adaptive strategy, exploits player weaknesses
+5. **Master AI:** Tournament-specific AI with unique playstyles and special techniques
+
+#### Adaptive AI Features
+- AI analyzes player's preferred attack patterns
+- Defensive positioning adjusts to counter player strengths
+- AI teams develop specialized tactics based on their character attributes
+- Tournament-specific AI teams with unique "signature moves"
+
+### Progression & Rewards
+
+#### Player Development
+- Experience points earned after matches
+- Attribute points to allocate to your team's stats
+- Skill unlocks at specific career milestones
+- Coach characters who provide temporary bonuses
+
+#### Unlockables
+- New characters with varied attribute distributions
+- Alternate outfits and equipment
+- Special techniques and serves
+- Legacy characters from "classic" volleyball games
+- Bonus mini-games and practice modes
+
+### Technical Design
+
+#### Visual Style
+- 16-bit inspired pixel art with modern touches
+- Smooth animation despite retro aesthetic
+- Weather variations (sunny, sunset, overcast)
+- Crowd and beach environment animations
+- Special visual effects for powerful moves
+
+#### Audio Design
+- Chiptune-inspired soundtrack with beach themes
+- Retro sound effects for ball contacts and crowd reactions
+- Character voice clips in 8-bit style
+- Dynamic audio that responds to match intensity
+
+#### User Interface
+- Minimalist HUD showing score, stamina, and special move availability
+- Match statistics tracked and displayed between sets
+- Career progress visualization through world map
+- Tournament brackets with team information
+
+### Extra Features
+
+#### Mini-Games
+- Serving Practice: Target-hitting challenge
+- Spike Challenge: Power and accuracy training
+- Endurance Rally: Keep the ball in play as long as possible
+- Beach Obstacle Course: Timed agility challenge
+
+#### Multiplayer Options
+- Local 2-player versus mode
+- Local 2-player cooperative mode against AI
+- Online leaderboards for career achievements
+
+### Development Roadmap
+
+#### Phase 1: Core Mechanics
+- Basic movement and volleyball actions
+- Simple AI implementation
+- Single match functionality
+- Core visual style implementation
+
+#### Phase 2: Career Structure
+- Tournament system
+- Basic character progression
+- Initial set of beach locations
+- Improved AI behaviors
+
+#### Phase 3: Polish & Content
+- Complete character roster
+- All tournament locations
+- Advanced AI behaviors
+- UI refinement and audio implementation
+
+#### Phase 4: Extra Features
+- Mini-games
+- Multiplayer functionality
+- Additional unlockables
+- Performance optimization
